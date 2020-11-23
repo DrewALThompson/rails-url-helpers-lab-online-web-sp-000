@@ -1,0 +1,1 @@
+class AddColumnActiveToStudents < ActiveRecord::Migration
