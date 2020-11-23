@@ -2,11 +2,11 @@
   <% @students.each do |student| %>
     <div>
     <%= link_to student.to_s, student_path(student)%>
-    <% if student.active %>
-      <p>This student is currently active.</p>
-    <% else %>
-      <p>This student is currently inactive.</p>
-    <% end %>
+    <!--<% if student.active %>-->
+    <!--  <p>This student is currently active.</p>-->
+    <!--<% else %>-->
+    <!--  <p>This student is currently inactive.</p>-->
+    <!--<% end %>-->
     </div>
   <% end %>
 </div>
